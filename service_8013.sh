@@ -29,7 +29,7 @@ case "$1" in
         fi  
           
         echo "Starting $PROG ..."  
-		    nohup /tpc/jdk1.8/bin/java -Dserver.port=8011 -jar $APPPATH/$JARNAME -Dservice=$PROG >> $APPPATH/$PROG.log 2>&1 & 
+		    nohup /tpc/jdk1.8/bin/java -Dserver.port=8013 -jar $APPPATH/$JARNAME -Dservice=$PROG >> $APPPATH/$PROG_8013.log 2>&1 & 
         RETVAL=$?  
         if [ $RETVAL -eq 0 ]; then  
             echo "$PROG is started"  
