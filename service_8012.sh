@@ -3,7 +3,7 @@
 PROG=MicroService-EmployeeService
 APPPATH=/tpc/webapps/microservice/employee
 JARNAME=MicroService-EmployeeService-1.0.0.jar
-PIDFILE=$APPPATH/$PROG_8012.pid
+PIDFILE=$APPPATH/$PROG.8012.pid
 cd $APPPATH
 
 status() {
